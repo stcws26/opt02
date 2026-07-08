@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="daySky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#DCE3E4"/>
+      <stop offset="1" stop-color="#F5F6F4"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="700" fill="url(#daySky)"/>
+
+  <!-- industrial building under construction -->
+  <g fill="#14171A">
+    <rect x="80" y="180" width="740" height="30"/>
+    <rect x="100" y="210" width="20" height="420"/>
+    <rect x="260" y="210" width="20" height="420"/>
+    <rect x="420" y="210" width="20" height="420"/>
+    <rect x="580" y="210" width="20" height="420"/>
+    <rect x="740" y="210" width="20" height="420"/>
+    <rect x="80" y="380" width="740" height="16"/>
+    <rect x="80" y="500" width="740" height="16"/>
+  </g>
+
+  <!-- floor slabs green tint -->
+  <g fill="#146B47" opacity="0.14">
+    <rect x="100" y="220" width="160" height="150"/>
+    <rect x="280" y="220" width="140" height="150"/>
+    <rect x="440" y="220" width="140" height="150"/>
+    <rect x="600" y="220" width="140" height="150"/>
+  </g>
+
+  <!-- crane -->
+  <g stroke="#0B0C0E" stroke-width="8" fill="none">
+    <line x1="770" y1="630" x2="770" y2="80"/>
+    <line x1="770" y1="90" x2="900" y2="90"/>
+    <line x1="770" y1="90" x2="700" y2="130"/>
+  </g>
+  <line x1="880" y1="90" x2="880" y2="180" stroke="#F2790C" stroke-width="4"/>
+
+  <!-- welder on scaffolding mid-height -->
+  <g transform="translate(430,400)">
+    <rect x="-70" y="60" width="220" height="10" fill="#0B0C0E"/>
+    <rect x="-70" y="0" width="10" height="70" fill="#0B0C0E"/>
+    <rect x="140" y="0" width="10" height="70" fill="#0B0C0E"/>
+
+    <!-- figure -->
+    <g transform="translate(20,-10)">
+      <circle cx="0" cy="-4" r="9" fill="#0B0C0E"/>
+      <rect x="-3" y="-30" width="6" height="10" rx="2" fill="#F2790C"/>
+      <path d="M-8 4 L8 4 L10 40 L2 40 L0 20 L-2 40 L-10 40 Z" fill="#146B47"/>
+      <rect x="-9" y="2" width="18" height="16" rx="3" fill="#1C8F5E"/>
+      <line x1="9" y1="8" x2="30" y2="-6" stroke="#0B0C0E" stroke-width="5" stroke-linecap="round"/>
+    </g>
+
+    <!-- weld point + sparks -->
+    <g transform="translate(50,-16)">
+      <circle r="7" fill="#FFFFFF"/>
+      <circle r="16" fill="#F2790C" opacity="0.55"/>
+      <g fill="#F2790C">
+        <circle cx="14" cy="-10" r="2"/>
+        <circle cx="20" cy="4" r="1.6"/>
+        <circle cx="-6" cy="-16" r="1.6"/>
+        <circle cx="6" cy="16" r="1.8"/>
+        <circle cx="-14" cy="6" r="1.5"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- second worker lower level -->
+  <g transform="translate(210,560)">
+    <circle cx="0" cy="-4" r="9" fill="#0B0C0E"/>
+    <rect x="-3" y="-30" width="6" height="10" rx="2" fill="#146B47"/>
+    <path d="M-9 4 L9 4 L11 42 L2 42 L0 20 L-2 42 L-11 42 Z" fill="#F2790C" opacity="0.9"/>
+    <rect x="-10" y="2" width="20" height="16" rx="3" fill="#0B0C0E"/>
+  </g>
+
+  <!-- ground -->
+  <rect x="0" y="630" width="900" height="70" fill="#B9C2C4"/>
+  <rect x="0" y="630" width="900" height="6" fill="#8C979A"/>
+</svg>
